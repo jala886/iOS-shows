@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        ZStack{
+            Color.green
         TabView{
             HomeView()
                 .tabItem{
@@ -24,6 +26,7 @@ struct ContentView: View {
                     Label("Favorites", systemImage: "star")
                 }
         }
+    }
     }
 }
 

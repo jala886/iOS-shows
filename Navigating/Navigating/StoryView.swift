@@ -9,6 +9,11 @@ import SwiftUI
 
 struct StoryView: View {
     var body: some View {
+        NavigationView{
+            StoryPageView(story:story,pageIndex:0)
+        }
+        .navigationViewStyle(.stack)
+        /*
         VStack{
             Text("My Story")
                 .font(.largeTitle)
@@ -21,6 +26,7 @@ struct StoryView: View {
             }
         }
         .padding([.top,.bottom],50)
+         */
     }
 }
 
