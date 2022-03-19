@@ -1,9 +1,9 @@
+
 //
-//  Array+Extension.swift
-//  DisplayGrid
+//  ContentView.swift
+//  ligeShop
 //
-//  Created by Ayush Gupta on 20/11/19.
-//  Copyright © 2019 Ayush Gupta. All rights reserved.
+//  Created by Consultant.
 //
 
 import Foundation

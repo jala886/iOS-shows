@@ -1,8 +1,9 @@
+
 //
-//  ligeShopApp.swift
+//  ContentView.swift
 //  ligeShop
 //
-//  Created by Consultant on 3/18/22.
+//  Created by Consultant.
 //
 
 import SwiftUI

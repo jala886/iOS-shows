@@ -1,9 +1,9 @@
+
 //
 //  ContentView.swift
-//  CoolLoginScreens
+//  ligeShop
 //
-//  Created by Hitesh Agarwal on 08/02/20.
-//  Copyright © 2020 Hitesh Agarwal. All rights reserved.
+//  Created by Consultant.
 //
 
 import SwiftUI

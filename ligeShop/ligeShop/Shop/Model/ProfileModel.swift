@@ -1,9 +1,9 @@
+
 //
-//  ProfileModel.swift
-//  ECommerceAppSwiftUI
+//  ContentView.swift
+//  ligeShop
 //
-//  Created by Ayush Gupta on 02/12/19.
-//  Copyright © 2019 Ayush Gupta. All rights reserved.
+//  Created by Consultant.
 //
 
 import Foundation

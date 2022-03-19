@@ -1,9 +1,9 @@
+
 //
-//  ItemRow.swift
-//  ECommerceAppSwiftUI
+//  ContentView.swift
+//  ligeShop
 //
-//  Created by M_AMBIN03921 on 20/04/21.
-//  Copyright © 2021 Ayush Gupta. All rights reserved.
+//  Created by Consultant.
 //
 
 import SwiftUI

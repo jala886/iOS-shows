@@ -32,7 +32,6 @@
 		0254C30527E54E15002C1257 /* SortByModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C2FC27E54E15002C1257 /* SortByModel.swift */; };
 		0254C30627E54E15002C1257 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C2FD27E54E15002C1257 /* ProfileModel.swift */; };
 		0254C30927E54E47002C1257 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C30827E54E47002C1257 /* TabBarView.swift */; };
-		0254C33627E5529C002C1257 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 0254C33527E5529C002C1257 /* PartialSheet */; };
 		0254C33C27E55333002C1257 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C33927E55333002C1257 /* ItemDetailsView.swift */; };
 		0254C33D27E55333002C1257 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C33A27E55333002C1257 /* ItemRow.swift */; };
 		0254C33E27E55333002C1257 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C33B27E55333002C1257 /* HomeView.swift */; };
@@ -56,6 +55,7 @@
 		0254C36E27E561A6002C1257 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C36B27E561A6002C1257 /* UserViewModel.swift */; };
 		0254C36F27E561A6002C1257 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C36C27E561A6002C1257 /* LoginView.swift */; };
 		0254C37127E56255002C1257 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C37027E56255002C1257 /* AppTextField.swift */; };
+		02C65E4327E59ACD009D4CC6 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 02C65E4227E59ACD009D4CC6 /* PartialSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,9 +104,6 @@
 		0254C2FC27E54E15002C1257 /* SortByModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortByModel.swift; sourceTree = "<group>"; };
 		0254C2FD27E54E15002C1257 /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		0254C30827E54E47002C1257 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		0254C33127E55233002C1257 /* PartialSheet-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "PartialSheet-master"; path = "ligeShop/PartialSheet-master"; sourceTree = "<group>"; };
-		0254C33227E55256002C1257 /* PartialSheet-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "PartialSheet-master"; path = "ligeShop/PartialSheet-master"; sourceTree = "<group>"; };
-		0254C33327E55286002C1257 /* PartialSheet-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "PartialSheet-master"; path = "ligeShop/PartialSheet-master"; sourceTree = "<group>"; };
 		0254C33927E55333002C1257 /* ItemDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
 		0254C33A27E55333002C1257 /* ItemRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		0254C33B27E55333002C1257 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -130,6 +127,7 @@
 		0254C36B27E561A6002C1257 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		0254C36C27E561A6002C1257 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0254C37027E56255002C1257 /* AppTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		02C65E4127E59ABC009D4CC6 /* PartialSheet-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "PartialSheet-master"; path = "ligeShop/PartialSheet-master"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0254C33627E5529C002C1257 /* PartialSheet in Frameworks */,
+				02C65E4327E59ACD009D4CC6 /* PartialSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +344,7 @@
 		0254C33027E55233002C1257 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				0254C33127E55233002C1257 /* PartialSheet-master */,
-				0254C33227E55256002C1257 /* PartialSheet-master */,
-				0254C33327E55286002C1257 /* PartialSheet-master */,
+				02C65E4127E59ABC009D4CC6 /* PartialSheet-master */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -484,7 +480,7 @@
 			);
 			name = ligeShop;
 			packageProductDependencies = (
-				0254C33527E5529C002C1257 /* PartialSheet */,
+				02C65E4227E59ACD009D4CC6 /* PartialSheet */,
 			);
 			productName = ligeShop;
 			productReference = 0254C29827E545C0002C1257 /* ligeShop.app */;
@@ -963,7 +959,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0254C33527E5529C002C1257 /* PartialSheet */ = {
+		02C65E4227E59ACD009D4CC6 /* PartialSheet */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PartialSheet;
 		};
