@@ -9,24 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            Color.green
-        TabView{
-            HomeView()
-                .tabItem{
-                    Label("Home",systemImage: "person")
-                }
-            StoryView()
-                .tabItem {
-                    Label("Story", systemImage: "book")
-                }
             
-            FavoritesView()
-                .tabItem {
-                    Label("Favorites", systemImage: "star")
-                }
-        }
-    }
+            TabView{
+                
+                HomeView()
+                    .tabItem{
+                        Label("Home",systemImage: "person")
+                    }
+                StoryView()
+                    .tabItem {
+                        Label("Story", systemImage: "book")
+                    }
+                
+                FavoritesView()
+                    .tabItem {
+                        Label("Favorites", systemImage: "star")
+                    }
+            }
+            //.accentColor(.green)
+            //RadialGradient(colors: [.orange, .yellow],center:.center, startRadius: 100,endRadius: 475))
     }
 }
 

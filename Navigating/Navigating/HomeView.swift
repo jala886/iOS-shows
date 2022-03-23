@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+        //ZStack{
+         //   RadialGradient(colors: [.orange, .yellow],center:.center, startRadius: 100,endRadius: 475)
         VStack{
             Text("All About")
                 .font(.largeTitle)
@@ -22,6 +24,10 @@ struct HomeView: View {
             Text(information.name)
                 .font(.title)
         }
+        //.edgesIgnoringSafeArea(.all)
+        //.ignoresSafeArea(.all)
+        //.background(LinearGradient(gradient: Gradient(colors:[.green, Color(red:200,green:200,blue:200)]), startPoint: .top, endPoint: .bottom))
+        //}.edgesIgnoringSafeArea(.all)
     }
 }
 
