@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		020FBD7727E6CD22001EF93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020FBD7627E6CD22001EF93F /* Assets.xcassets */; };
-		020FBD7927E6D7ED001EF93F /* register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020FBD7827E6D7ED001EF93F /* register.storyboard */; };
-		020FBD7F27E6DD48001EF93F /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FBD7E27E6DD48001EF93F /* registerViewController.swift */; };
 		0254C29C27E545C0002C1257 /* ligeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C29B27E545C0002C1257 /* ligeShopApp.swift */; };
 		0254C29E27E545C0002C1257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254C29D27E545C0002C1257 /* ContentView.swift */; };
 		0254C2A327E545C2002C1257 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0254C2A227E545C2002C1257 /* Preview Assets.xcassets */; };
@@ -80,8 +78,6 @@
 
 /* Begin PBXFileReference section */
 		020FBD7627E6CD22001EF93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		020FBD7827E6D7ED001EF93F /* register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = register.storyboard; sourceTree = "<group>"; };
-		020FBD7E27E6DD48001EF93F /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		0254C29827E545C0002C1257 /* ligeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ligeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0254C29B27E545C0002C1257 /* ligeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligeShopApp.swift; sourceTree = "<group>"; };
 		0254C29D27E545C0002C1257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -238,8 +234,6 @@
 			isa = PBXGroup;
 			children = (
 				020FBD7627E6CD22001EF93F /* Assets.xcassets */,
-				020FBD7827E6D7ED001EF93F /* register.storyboard */,
-				020FBD7E27E6DD48001EF93F /* registerViewController.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -582,7 +576,6 @@
 				0254C2A327E545C2002C1257 /* Preview Assets.xcassets in Resources */,
 				0254C36227E554E5002C1257 /* OpenSans-SemiBold.ttf in Resources */,
 				0254C36527E554E5002C1257 /* OpenSans-Bold.ttf in Resources */,
-				020FBD7927E6D7ED001EF93F /* register.storyboard in Resources */,
 				0254C36627E554E5002C1257 /* OpenSans-Regular.ttf in Resources */,
 				0254C36827E555FB002C1257 /* Assets.xcassets in Resources */,
 				0254C36327E554E5002C1257 /* OpenSans-Light.ttf in Resources */,
@@ -618,7 +611,6 @@
 				0254C35D27E554E5002C1257 /* RatingView.swift in Sources */,
 				0254C30127E54E15002C1257 /* OrderModel.swift in Sources */,
 				0254C33D27E55333002C1257 /* ItemRow.swift in Sources */,
-				020FBD7F27E6DD48001EF93F /* registerViewController.swift in Sources */,
 				0254C2EF27E54DFE002C1257 /* MyOrdersView.swift in Sources */,
 				0254C2F327E54DFE002C1257 /* PromoCodeView.swift in Sources */,
 				0254C30627E54E15002C1257 /* ProfileModel.swift in Sources */,
